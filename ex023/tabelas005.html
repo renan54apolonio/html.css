@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 2em;
+            font-weight: bolder;
+            padding: 10px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            
+        }
+        .destaque {
+            background-color: yellowgreen;
+        }
+        col.cnome {
+            background-color: yellowgreen;
+        }
+        col.cgrupo {
+            background-color: rgb(255, 123, 47);
+        }
+    </style>
+</head>
+<body>
+    <h1>mais tabelas</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="3">
+            
+        </colgroup>
+        <caption>cadastro</caption>
+        <tr>
+            <th scope="col">nome</th>
+            <th scope="col">sexo</th>
+            <th scope="col">idade</th>
+            <th scope="col">profissao</th>
+        </tr>
+        <tr>
+            <th>Ana Maria</th>
+            <th>F</th>
+            <th>23</th>
+            <th>jornalista</th>
+        </tr>
+        <tr>
+            <th>Julio Cocielo</th>
+            <th>M</th>
+            <th>30</th>
+            <th>apresentador</th>
+        </tr>
+        <tr>
+            <th>Samara Ramos</th>
+            <th>F</th>
+            <th>28</th>
+            <th>empresaria</th>
+        </tr>
+        <tr>
+            <th>Camilla Souza</th>
+            <th>F</th>
+            <th>18</th>
+            <th>estudante</th>
+        </tr>
+        <tr>
+            <th>Kleber Mendonça</th>
+            <th>M</th>
+            <th>42</th>
+            <th>general</th>
+        </tr>
+    </table>
+    
+</body>
+</html>
