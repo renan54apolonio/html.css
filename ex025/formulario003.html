@@ -8,6 +8,33 @@
 </head>
 <body>
     <h1>mais formularios</h1>
+    <form action="cadstro.php" method="get" autocomplete="on">
+        <p>
+            <label for="inome">Nome</label>
+            <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome Completo" autocomplete="name">
+        </p>
+        <p>
+            <label for="imedia">Média</label>
+            <input type="number" name="media" id="imedia" min="0"
+            max="10" placeholder="0 a 10" step="0.1">
+        </p>
+        <p>
+            <label for="imes">periodo letivo</label>
+            <input type="month" name="mes" id="imes" required>
+        </p>
+        <p>
+            <label for="idia">dia da prova</label>
+            <input type="date" name="dia" id="idia">
+        </p>
+        <p>
+            <label for="ihora">horas</label>
+            <input type="time" name="hora" id="ihora">
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
     
 </body>
 </html>
